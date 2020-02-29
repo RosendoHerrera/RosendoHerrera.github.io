@@ -3,6 +3,20 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+body{
+  background-image: url("https://definicion.mx/wp-content/uploads/derecho/Derecho-Civil-justicia-arte-objetivo.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.navbar-transparent {
+  position: absolute;
+  left: 10%;
+  right: 20%;
+  background: rgba(0, 0, 0, 0.5)
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
