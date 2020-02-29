@@ -7058,7 +7058,6 @@ $jscomp.polyfill = function (e, r, p, m) {
     // Add active if input element has been pre-populated on document ready
     $(document).ready(function () {
       M.updateTextFields();
-      $(".dropdown-trigger").dropdown();
     });
 
     // HTML DOM FORM RESET handling
