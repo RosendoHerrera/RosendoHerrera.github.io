@@ -8,6 +8,20 @@ body{
   background-image: url("https://definicion.mx/wp-content/uploads/derecho/Derecho-Civil-justicia-arte-objetivo.jpg");
   background-size: cover;
   position: relative;
+  
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+#inner {
+  left: 10%;
+  right: 20%;
+  width: 50%;
+  margin: auto;
 }
 
 .navbar-transparent {
