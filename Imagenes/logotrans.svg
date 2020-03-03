@@ -7,11 +7,11 @@
  <use id="Corporativo-Jurídico" xlink:href="#string"/>
  <defs>
   <text id="string-1" transform="matrix(1.0 0.0 0.0 1.0 11.0 -131.5)">
-   <tspan x="1.0" text-decoration="none" y="967.0" font-size="1000" fill="#761732" font-family="Baskerville, Baskerville">O</tspan>
-   <tspan font-family="HelveticaNeue-Light, Helvetica Neue" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="893.75390625">|</tspan>
-   <tspan font-family="Baskerville, Baskerville" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="1115.75390625">C</tspan>
-   <tspan font-family="HelveticaNeue-Light, Helvetica Neue" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="1904.50390625">|</tspan>
-   <tspan font-family="Baskerville, Baskerville" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="2126.50390625">H</tspan>
+   <tspan x="281.125" text-decoration="none" y="967.0" font-size="1000" fill="#761732" font-family="Baskerville, Baskerville">O</tspan>
+   <tspan font-family="HelveticaNeue-Light, Helvetica Neue" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="1033.87890625">|</tspan>
+   <tspan font-family="Baskerville, Baskerville" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="1185.87890625">C</tspan>
+   <tspan font-family="HelveticaNeue-Light, Helvetica Neue" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="1834.62890625">|</tspan>
+   <tspan font-family="Baskerville, Baskerville" text-decoration="none" y="967.0" font-size="1000" fill="#761732" x="1986.62890625">H</tspan>
   </text>
  </defs>
  <use id="O|C|H" xlink:href="#string-1"/>
