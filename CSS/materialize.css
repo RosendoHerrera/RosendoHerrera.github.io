@@ -11,7 +11,7 @@ body{
   
 }
 
-header {
+.navbarsup {
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -28,7 +28,7 @@ header {
   position: absolute;
   left: 10%;
   right: 20%;
-  background: rgba(0, 0, 0, 0.5)
+  background: rgba(121, 120, 120, 0.295)
 }
 
 .materialize-red {
@@ -9114,4 +9114,28 @@ input[type=range]::-ms-thumb {
 
 h1{
   color: #761732;
+}
+
+#vino{
+  color: #761732;
+}
+
+
+.navdesk {
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, .6);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 50px;
+  z-index: 9;
+}
+.font_titulo {
+    font-family: 'Cassannet';
+}
+.space2pt {
+    letter-spacing: 2pt;
+}
+.mayus {
+    text-transform: uppercase;
 }
