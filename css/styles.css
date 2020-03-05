@@ -1,104 +1,167 @@
 .contenedor-header{
-    margin: 10px 20px 10px 20px;
+    /*margin: 10px 20px 10px 20px;*/
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    /*background-image: url("https://definicion.mx/wp-content/uploads/derecho/Derecho-Civil-justicia-arte-objetivo.jpg");*/
+    background-size: cover;
+    position: relative;
+    width: 80vw;
+    min-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI';
+    font-variant: normal;
+    font-size: 1.8rem;
+
+}
+
+h1 {
+    font-size: 4.4rem;
+}
+h2 {
+    font-size:  3.9rem;
+    font-weight: normal;
+    display: inline;
+    color: #88495A;
+    text-shadow: 1rem #000000;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 3.4rem;
+}
+h4 {
+    font-size: 2.9rem
 }
 
 .menunav{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    background-color: rgba(104, 100, 94, 0.9);
-
+    padding-top: 2rem;
+    align-items: center;
+   /* background-color: rgba(104, 100, 94, 0.9); */
 }
 
 
-.navbartop a{
-    color: #761732;
-    font-size: 16px;
-    text-decoration: none;
-    margin-right: 30px;
+
+.divisor_bloque{
+    background-color: #761732;
+    border-color: rgba(112 , 112, 112 1);
+    border-width: .1rem;
+    border-radius: .5rem;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    height: 10.6rem;
+}
+
+.divisor_texto{
+    background-color: white;
+    margin: 27px 0px 27px 0px;
+    box-shadow: 0   0   2rem #E4C0CA;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_divisor{
+    font-weight: normal;
+    display: inline;
+    margin-left: .7rem;
+    margin-right: .8rem;
     
 }
 
+.navbartop a{
+    color: #761732;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-right: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*
 .page-header.img-inicio {
     background-image: url(../Imagenes/Oficina2.jpg);
-    height: 100vh;
-    min-height: 700px;
+    height: 75vh;
+    min-height: 70rem;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 80vw;
-    min-width: 450px;
+    min-width: 45rem;
     margin: 10px auto 0 auto;
 }
+*/
 
 /*   GREER el feeder xdd */
 
-body {
-    background-image: url("https://definicion.mx/wp-content/uploads/derecho/Derecho-Civil-justicia-arte-objetivo.jpg");
-    background-size: cover;
-    position: relative;
-    width: 80vw;
-    min-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.navcolor{
+    width: 100%; 
+    background-color: rgba(104, 100, 94, 0.9);
+}
+
+
+.ul .li {
+    list-style: none;
+    display: inline-block;
+    padding: 2rem;
 
 }
 
-.navbarsup {
-    position: fixed;
+.ul .li:hover {
+    background-color: #f5f5f5;
+}
+
+.a {
+    color: #761732;
+    text-decoration: none;
+}
+
+.menuresp   {
     width: 100%;
-    z-index: 1000;
+    padding: 1rem 2rem;
+    text-align: right;
+    box-sizing: border-box;
+    color: #f5f5f5;
+    font-size: 3rem;
+    display: none;
 }
 
-#inner {
-    left: 10%;
-    right: 20%;
-    width: 50%;
-    margin: auto;
+.navright{
+    text-align: right;
 }
 
-.navbar-transparent {
-    position: absolute;
-    left: 10%;
-    right: 20%;
-    background: rgba(121, 120, 120, 0.295)
+@media (max-width:76.8rem)
+{
+    .menuresp
+    {
+    display: block;
+    }
+    .ul
+    {
+    width:100%;
+    display: none;
+    }
+    .ul .li
+    {
+    display: block;
+    text-align: center;
+    }
 }
 
-.navdesk {
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, .6);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    height: 50px;
-    z-index: 9;
+.navactive{
+    display: block;
 }
-
-.font_titulo {
-    font-family: 'Cassannet';
-}
-
-.space2pt {
-    letter-spacing: 2pt;
-}
-
-.mayus {
-    text-transform: uppercase;
-}
-
-
-
-
-
-
-
-.menu-home {
-    background-color:#fff !important
-}
-
-
-.home-transp{
-    background-color: rgba(255,255,255,0.5) !important;
-}
-
-

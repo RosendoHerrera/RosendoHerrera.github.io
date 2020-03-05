@@ -2,136 +2,145 @@
 <html lang="ES">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Imagenes/favi.png" type="image/png">
+  <title>OCH Corporativo Jurídico</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        .menu {
-          float: left;
-          width: 20%;
-        }
-        .menuitem {
-          padding: 8px;
-          margin-top: 7px;
-          border-bottom: 1px solid #f1f1f1;
-        }
-        .main {
-          float: left;
-          width: 60%;
-          padding: 0 20px;
-          overflow: hidden;
-        }
-        .right {
-          background-color: lightblue;
-          float: left;
-          width: 20%;
-          padding: 10px 15px;
-          margin-top: 7px;
-        }
-        
-        @media only screen and (max-width:800px) {
-          /* For tablets: */
-          .main {
-            width: 80%;
-            padding: 0;
-          }
-          .right {
-            width: 100%;
-          }
-        }
-        @media only screen and (max-width:500px) {
-          /* For mobile phones: */
-          .menu, .main, .right {
-            width: 100%;
-          }
-        }
-        </style>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Imagenes/favi.png" type="image/png">
-    <title>OCH Corporativo Jurídico</title>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!--Import materialize.css-->
-    <!--<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />-->
-
-    <!--Hoja de estilos importada-->
-    <link rel="stylesheet" href="css/styles.css">
+<!--Librerias para menu -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--Import materialize.css-->
+  <!--<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--Hoja de estilos importada-->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <header class="page-header img-inicio">
-        <div class="contenedor-header">
-            <div class="menunav">
-                <a target="_self" href="index1.html"><img src="Imagenes/logotrans.svg" alt="Logotipo OCH" height="65"></a>
-                <nav class="navbartop">
-                    <a target="_self" href="#AServicios">Servicios</a>
-                    <a target="_self" href="#AContacto">Contáctanos</a>
-                    <a target="_self" href="#ALocalización">Localizacion</a>
-                </nav>
-            </div>
-            <h1>Especialistas en Derecho Electoral, Laboral, Empresarial y Litigio Estratégico</h1>
-        </div>
-    </header>
-
-    <main id="AServicios">
-        <h2>Nuestros Servicios</h2>
-        <div id="ADerechoElectoral">
-            <h3><a href="Derecho_Electoral.html">Derecho Electoral</a></h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur sit quam tempora aliquam, nemo, ab
-                inventore iste alias recusandae quibusdam sunt doloribus ea sequi dignissimos! Nesciunt optio deleniti
-                sint nemo!
-            </p>
-        </div>
-        <div id="ADerechoLaboral">
-            <h3><a href="Derecho_Laboral.html">Derecho Laboral</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nisi saepe inventore dolore
-                consequuntur corporis quod doloribus, dolores, corrupti laudantium distinctio illum debitis nemo,
-                impedit non qui recusandae excepturi dignissimos!</p>
-        </div>
-        <div id="ADerechoEmpresarial">
-            <h3><a href="Derecho_Empresarial.html">Derecho Empresarial</a></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, id voluptas nemo pariatur ea itaque vel!
-                Itaque facilis unde, tenetur ipsam quia molestias id perspiciatis voluptate quisquam sed numquam optio.
-            </p>
-        </div>
-        <div id="ALitigioEstrategico">
-            <h3><a href="Litigio_Estrategico.html">Litigio Estratégico</a></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dicta asperiores quod omnis, veniam, ea
-                dolorem ratione illo aliquam ipsam consequuntur impedit officiis cum. Nulla impedit labore rem quasi ut.
-            </p>
-        </div>
-    </main>
-
-    <section id="AContacto">
-        <h2>Contáctanos</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate aperiam dolores fuga perspiciatis, dolor
-            reprehenderit, qui aspernatur nobis officia quae quia soluta mollitia repellendus fugit? Numquam soluta
-            aspernatur debitis magni.</p>
-
-    </section>
-
-    <section id="ALocalización">
-        <h2>Donde nos ubicamos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel, quaerat laborum sint unde facere
-            explicabo accusantium animi, temporibus amet quam ratione deleniti sapiente, fuga quod laudantium iure
-            expedita optio.
-        </p>
-    </section>
-
-    <footer>
-        <img src="/Imagenes/logo1.png" alt="Logotipo OCH" width="300">
-        <p>Todos los Derechos Reservados 2020 &copy;</p>
-
+  <header class="page-header img-inicio">
     
+<div class="contenedor-header">
+  <div class="menunav">
+   <nav class="navcolor">
+      <div class="menuresp">
+        <i class="fa fa-bars menu" aria-hidden="true"></i>
+      </div>
+    <div>
+       <ul class="navright ul">
+        <li class="li"><a class="a" href="#">Servicios</a>
+        <li class="li"><a class="a" href="#">Contáctanos</a></li>
+        <li class="li"><a class="a" href="#">Ubicación</a></li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+</div>
 
-</footer>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.menu').click(function(){
+        $('ul').toggleClass('navactive');
+      })
+
+    })
+  </script>
+  </header>
+
+  <header class="page-header img-inicio">
+    <div class="contenedor-header">
+      <div class="menunav">
+        <a target="_self" href="index.html"><img src="Imagenes/logotrans.svg" alt="Logotipo OCH" height="65"></a>
+        <nav class="navbartop">
+          <a target="_self" href="#AServicios">Servicios</a>
+          <a target="_self" href="#AUbicacion">Ubicación</a>
+          <a target="_self" href="#AContacto">Contáctanos</a>
+        </nav>
+      </div>
+      <h1>Especialistas en Derecho Electoral, Laboral, Empresarial y Litigio Estratégico</h1>
+    </div>
+  </header>
+
+  <main id="AServicios">
+    <div class="divisor_bloque">
+      <div class="divisor_texto">
+        <div class="texto_divisor">
+          <h2>Nuestros Servicios</h2>
+        </div>
+      </div>
+    </div>
+    
+    <div id="ADerechoElectoral">
+      <h3><a href="Derecho_Electoral.html">Derecho Electoral</a></h3>
+      <img src="#" alt="img Derecho Electoral">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur sit quam tempora aliquam, nemo, ab
+        inventore iste alias recusandae quibusdam sunt doloribus ea sequi dignissimos! Nesciunt optio deleniti
+        sint nemo!
+      </p>
+    </div>
+
+    <div id="ADerechoLaboral">
+      <h3><a href="Derecho_Laboral.html">Derecho Laboral</a></h3>
+      <img src="#" alt="img Derecho Laboral">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nisi saepe inventore dolore
+        consequuntur corporis quod doloribus, dolores, corrupti laudantium distinctio illum debitis nemo,
+        impedit non qui recusandae excepturi dignissimos!</p>
+    </div>
+    <div id="ADerechoEmpresarial">
+      <h3><a href="Derecho_Empresarial.html">Derecho Empresarial</a></h3>
+      <img src="#" alt="img Derecho Empresarial">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, id voluptas nemo pariatur ea itaque vel!
+        Itaque facilis unde, tenetur ipsam quia molestias id perspiciatis voluptate quisquam sed numquam optio.
+      </p>
+    </div>
+
+    <div id="ALitigioEstrategico">
+      <h3><a href="Litigio_Estrategico.html">Litigio Estratégico</a></h3>
+      <img src="#" alt="img Litigio Estrategico">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dicta asperiores quod omnis, veniam, ea
+        dolorem ratione illo aliquam ipsam consequuntur impedit officiis cum. Nulla impedit labore rem quasi ut.
+      </p>
+    </div>
+
+  </main>
+
+  <section id="AUbicacion">
+    <div class="divisor_bloque">
+      <div class="divisor_texto">
+        <div class="texto_divisor">
+          <h2>DONDE ESTAMOS UBICADOS</h2>
+        </div>
+      </div>
+    </div>
+    <p>Av. Principal No.4 Col. Pastoresa Torre JV piso No.19 Despacho 19E (Atrás del Hospital Ángeles), Xalapa,
+      Veracruz, México.
+    </p>
+    <img src="#" alt="Ubicación Google Maps">
+  </section>
+
+  <section id="AContacto">
+    <div class="divisor_bloque">
+      <div class="divisor_texto">
+        <div class="texto_divisor">
+          <h2>CONTÁCTANOS</h2>
+        </div>
+      </div>
+    </div>
+    <p>PONTE EN CONTACTO CON NOSOTROS A TRAVES DE ÉSTE NUMERO</p>
+    <img src="#" alt="Logo Whatsapp">
+    <p>11-22-33-44-55</p>
+
+  </section>
+
+  <footer class="centrado horizontal">
+    <img src="/Imagenes/logo1.png" alt="Logotipo OCH" width="300">
+    <p>Todos los Derechos Reservados 2020 &copy;</p>
+
+  </footer>
 </body>
 
 </html>
