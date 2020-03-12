@@ -9,7 +9,7 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<!--Librerias para menu -->
+  <!--Librerias para menu -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!--Import materialize.css-->
   <!--<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />-->
@@ -20,36 +20,44 @@
 
 <body>
 
-  <header class="page-header img-inicio">
+
+
+  <header>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-<div class="contenedor-header">
-  <div class="menunav">
-   <nav class="navcolor">
-      <div class="menuresp">
-        <i class="fa fa-bars menu" aria-hidden="true"></i>
-      </div>
-    <div>
-       <ul class="navright ul">
-        <li class="li"><a class="a" href="#">Servicios</a>
-        <li class="li"><a class="a" href="#">Contáctanos</a></li>
-        <li class="li"><a class="a" href="#">Ubicación</a></li>
-      </ul>
+    <div class="topnav" id="myTopnav">
+      
+      <a target="_self" href="index.html"><img src="Imagenes/logotrans.svg" alt="Logotipo OCH" height="65"></a>
+     
+      <a href="#news">Servicios</a>
+      <a href="#contact">Ubicacion</a>
+      <a href="#about">Contactanos</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    </nav>
-  </div>
-</div>
+    
+    
+    </div>
+    <h1>Especialistas en Derecho Electoral, Laboral, Empresarial y Litigio Estratégico</h1>
+    </div>
+    
+    
+    
+       <script>   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+        </header>
 
-
-  <script src="https://code.jquery.com/jquery-3.4.1.js" ></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.menu').click(function(){
-        $('ul').toggleClass('navactive');
-      })
-
-    })
-  </script>
-  </header>
+<!-- 
 
   <header class="page-header img-inicio">
     <div class="contenedor-header">
@@ -64,7 +72,10 @@
       <h1>Especialistas en Derecho Electoral, Laboral, Empresarial y Litigio Estratégico</h1>
     </div>
   </header>
+-->
 
+
+  
   <main id="AServicios">
     <div class="divisor_bloque">
       <div class="divisor_texto">
@@ -73,14 +84,18 @@
         </div>
       </div>
     </div>
-    
-    <div id="ADerechoElectoral">
-      <h3><a href="Derecho_Electoral.html">Derecho Electoral</a></h3>
-      <img src="#" alt="img Derecho Electoral">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur sit quam tempora aliquam, nemo, ab
-        inventore iste alias recusandae quibusdam sunt doloribus ea sequi dignissimos! Nesciunt optio deleniti
-        sint nemo!
-      </p>
+
+    <div id="ADerechoElectoral" class="servicio">
+      <div class="servicio-titulo">
+        <h3><a href="Derecho_Electoral.html">Derecho Electoral</a></h3>
+        <img src="/Imagenes/favicon.png" alt="img Derecho Electoral">
+      </div>
+      <div class="servicio-texto">
+        <p><a href="">Servicio 1</a></p>
+        <p><a href="">Servicio 2</a></p>
+        <p><a href="">Servicio 3</a></p>
+        <p><a href="">Servicio 4</a></p>
+      </div>
     </div>
 
     <div id="ADerechoLaboral">
@@ -112,35 +127,42 @@
     <div class="divisor_bloque">
       <div class="divisor_texto">
         <div class="texto_divisor">
-          <h2>DONDE ESTAMOS UBICADOS</h2>
+          <h2>Donde estamos ubicados</h2>
         </div>
       </div>
     </div>
-    <p>Av. Principal No.4 Col. Pastoresa Torre JV piso No.19 Despacho 19E (Atrás del Hospital Ángeles), Xalapa,
-      Veracruz, México.
-    </p>
-    <img src="#" alt="Ubicación Google Maps">
+    <div class="centrado horizontal">
+      <p id="direccion">Av. Principal No.4 Col. Pastoresa Torre JV piso No.19 Despacho 19E (Atrás del Hospital Ángeles), Xalapa,
+        Veracruz, México.
+      </p>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.634592609501!2d-96.88351734902345!3d19.514350743052475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db32346583d5a9%3A0xa870994a23d4b201!2sTorre%20JV%20Centro%20Mayor%20Xalapa!5e0!3m2!1ses!2smx!4v1583383542614!5m2!1ses!2smx"
+        width="70%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
   </section>
 
   <section id="AContacto">
     <div class="divisor_bloque">
       <div class="divisor_texto">
         <div class="texto_divisor">
-          <h2>CONTÁCTANOS</h2>
+          <h2>Contáctanos</h2>
         </div>
       </div>
     </div>
-    <p>PONTE EN CONTACTO CON NOSOTROS A TRAVES DE ÉSTE NUMERO</p>
-    <img src="#" alt="Logo Whatsapp">
-    <p>11-22-33-44-55</p>
-
+    <div class="centrado horizontal">
+      <p>ponte en contacto con nosotros a traves de éste numero</p>
+      <div class="centrado">
+        <img src="/Imagenes/whatsapp-logo.png" alt="Logo Whatsapp" width="100">
+        <!--IMPORTANTE     ACTUALIZAR EL NUMERO Y MENSAJE QUE SE TIENE QUE MANDAR A WHATSAPP-->
+        <a href="https://api.whatsapp.com/send?phone=INGRESAELNUMERO"><p id="phone">11-22-33-44-55</p></a>
+      </div>
+    </div>
   </section>
 
-  <footer class="centrado horizontal">
+  <footer>
     <img src="/Imagenes/logo1.png" alt="Logotipo OCH" width="300">
     <p>Todos los Derechos Reservados 2020 &copy;</p>
-
   </footer>
 </body>
-
 </html>
